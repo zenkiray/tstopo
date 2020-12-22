@@ -2,9 +2,10 @@
 
 效果：
 
+![效果图](https://github.com/zenkiray/tstopo/blob/master/images/1608617736475.jpg)
 
 用法：
-(```)
+```javascript
 this.topo = new Topo(this.$refs.topo, {
       'canvas.width': width, 
       'canvas.height': this.leftHeight,
@@ -23,9 +24,9 @@ this.topo = new Topo(this.$refs.topo, {
         alert(d.getUuid() + '删除事件');
       }
     });
-    (```)
+```
 数据格式：
-(```)
+```json
   {
     "canvas": {
         "uuid": "5a9bd29525b04a11a2c26199cea6eaa1"
@@ -79,4 +80,4 @@ this.topo = new Topo(this.$refs.topo, {
         }
     ]
 }
-(```)
+```
